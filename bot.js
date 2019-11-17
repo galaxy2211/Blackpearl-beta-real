@@ -14,13 +14,7 @@ bot.on('message', message =>{
             if(msg === prefix + "bang" && message.channel.id === "634023000441749510"){
                 message.channel.send('BOOM!!!!!') // Sends a message to the channel, with the content
             }
-         module.exports = (client) => {
-	console.log('Ready!');
-  
-  client.user.setActivity('/help', {
-  type: "STREAMING",
-  url: "https://blackpearlbot.site.live/"
-});
+ 
             else{
                 message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
             }
