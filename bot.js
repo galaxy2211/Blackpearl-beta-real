@@ -11,7 +11,7 @@ bot.on('message', message =>{
      module.module.exports = (client) => {
 	console.log('Ready!');
 
-	client.user.setActivity('/ for help');
+	client.user.setActivity('process.env.STATUS');
 };
 
     if(message.author.id != "77482721587771080704" && message.channel.id === "63402300770441749510"){
