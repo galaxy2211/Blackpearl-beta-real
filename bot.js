@@ -8,6 +8,11 @@ bot.on('message', message =>{
     var sender = message.author; //The person who sent the message
     var msg = message.content;
     var prefix = "/" //The text before commands, you can put anything that you prefer
+     module.module.exports = (client) => {
+	console.log('Ready!');
+
+	client.user.setActivity('/ for help');
+};
 
     if(message.author.id != "77482721587771080704" && message.channel.id === "63402300770441749510"){
         if(msg.startsWith('/', 0)){
